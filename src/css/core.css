@@ -15,15 +15,3 @@ body {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
 }
-
-/*************************************************
-* --------------- cesium overrides ------------- *
-**************************************************/
-
-.cesium-widget-credits {
-  display: none !important;
-}
-
-.cesium-viewer-fullscreenContainer > button {
-  display: none !important;
-}
