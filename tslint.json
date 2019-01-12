@@ -1,0 +1,76 @@
+{
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ],
+  "extends": [
+    "tslint:latest"
+  ],
+  "rules": {
+    "angular-whitespace": false,
+    "banana-in-box": true,
+    "templates-no-negated-async": true,
+    "directive-selector": [
+      true,
+      "attribute",
+      "agc",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "agc",
+      "kebab-case"
+    ],
+    "use-input-property-decorator": true,
+    "use-output-property-decorator": true,
+    "use-host-property-decorator": true,
+    "no-attribute-parameter-decorator": true,
+    "no-input-rename": true,
+    "no-output-rename": true,
+    "no-forward-ref": true,
+    "use-view-encapsulation": true,
+    "use-life-cycle-interface": true,
+    "use-pipe-transform-interface": true,
+    "pipe-naming": [
+      true,
+      "camelCase"
+    ],
+    "component-class-suffix": true,
+    "directive-class-suffix": true,
+    "pipe-impure": true,
+    "object-literal-sort-keys": false,
+    "no-object-literal-type-assertion": false,
+    "member-access": false,
+    "prefer-conditional-expression": false,
+    "member-ordering": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape",
+      "avoid-template"
+    ],
+    "no-empty": false,
+    "jsdoc-format": false,
+    "ban-types": false,
+    "max-classes-per-file": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "no-console": [
+      false,
+      "log"
+    ],
+    "ordered-imports": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "interface-name": false,
+    "trailing-comma": false,
+    "max-line-length": false,
+    "radix": false,
+    "no-string-literal": false
+  }
+}

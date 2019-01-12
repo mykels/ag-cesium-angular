@@ -1,0 +1,44 @@
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+workspace.xml
+.idea/libraries/*
+.idea/
+*/*.iml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+yarn.lock
+
+#intellij
+*.iml
+*.idea*
+*.vertx
+*.log

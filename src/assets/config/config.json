@@ -1,0 +1,66 @@
+{
+  "map": {
+    "viewerOptions": {
+      "imageryProvider": {
+        "provider": "wms",
+        "options": {
+          "url": "https://sampleserver1.arcgisonline.com/ArcGIS/services/Specialty/ESRI_StatesCitiesRivers_USA/MapServer/WMSServer",
+          "maximumLevel": 0
+        }
+      },
+      "fullscreenButton": false,
+      "baseLayerPicker": false,
+      "geocoder": false,
+      "homeButton": false,
+      "infoBox": false,
+      "debugShowFramesPerSecond": false,
+      "sceneModePicker": false,
+      "selectionIndicator": false,
+      "timeline": false,
+      "navigationHelpButton": false,
+      "navigationInstructionsInitiallyVisible": false,
+      "animation": false,
+      "targetFrameRate": 60,
+      "skyBox": false,
+      "skyAtmosphere": false,
+      "orderIndependentTranslucency": false,
+      "terrainShadows": false,
+      "requestRenderMode": true,
+      "maximumRenderTimeChange": 0,
+      "webgl": {
+        "alpha": false,
+        "depth": true,
+        "stencil": false,
+        "antialias": false,
+        "premultipliedAlpha": true,
+        "preserveDrawingBuffer": false,
+        "failifMajorPerformanceCaveat": true
+      },
+      "allowTextureFilterAnisotropic": false
+    },
+    "scene": {
+      "mode": 2,
+      "globe": {
+        "baseColor": "#5f7677"
+      }
+    },
+    "home": {
+      "destination": {
+        "longitude": 35.004982,
+        "latitude": 32.603325,
+        "altitude": 3600000
+      },
+      "duration": 1.2,
+      "orientationPitchDegrees": 90
+    },
+    "zoom": {
+      "amount": 400000,
+      "min": 300000,
+      "max": 8000000,
+      "inertia": 1
+    },
+    "events": {
+      "mouseMoveDebounce": 100
+    }
+  }
+}

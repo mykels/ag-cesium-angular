@@ -1,0 +1,29 @@
+/*************************************************
+* -------------- global definitions ------------ *
+**************************************************/
+
+html, body, .map-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: Arial, serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*************************************************
+* --------------- cesium overrides ------------- *
+**************************************************/
+
+.cesium-widget-credits {
+  display: none !important;
+}
+
+.cesium-viewer-fullscreenContainer > button {
+  display: none !important;
+}
